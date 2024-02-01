@@ -1,0 +1,363 @@
+.menu {
+    max-width: 100%;
+    height: 100%;
+    border: 2px solid red;
+
+}
+
+.boshi {
+    max-width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+}
+
+.lol1 {
+    margin: auto;
+}
+
+.lol2 p {
+    margin-left: 50px;
+
+}
+
+.lol3 {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.ortasi .lol3 h1 {
+    max-width: 100%;
+    font-family: poppina;
+    font-size: 100px;
+
+}
+
+.lol2 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.ortasi {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    margin-left: 20px;
+}
+
+
+.lol4 {
+
+
+    max-width: 100%;
+    height: 500px;
+}
+
+.lol4 img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.boxs1 {
+    max-width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 50px;
+}
+
+.ortasi .lol3 button {
+    font-size: 20px;
+    background-color: #E27B3A;
+    border-radius: 16px;
+    color: white;
+}
+
+.box1 {
+    max-width: 300px;
+    height: 100%;
+
+    margin: auto;
+    border-radius: 8px;
+    border: 1px solid black
+
+}
+
+.box1 h1 {
+    margin: auto;
+
+}
+
+.box1 ol a {
+    color: #E27B3A;
+    margin: auto;
+
+
+}
+
+
+.lol5 {
+    max-width: 30%;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+.lol9 {
+    margin: auto;
+    max-width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+
+    background: #FCF2EB;
+}
+
+.lol9 img {
+    max-width: 100%;
+
+    margin: auto;
+    background: #FCF2EB;
+    margin-top: 20px;
+
+
+
+    border-radius: 20px
+}
+
+.oxirrogi2 {
+    max-width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box10 {
+    max-width: 100%;
+    height: 100%;
+
+}
+
+.box10 img {
+    margin: auto;
+    max-width: 100%;
+    height: 60%;
+
+
+}
+
+.box10 h4 {
+
+    color: #170C04;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.box10 p {
+
+    color: #E27B3A;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.oxirrogi3 {
+    max-width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.oxirrogi3 img {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.box11 {
+    max-width: 80%;
+    height: 100%;
+    margin: auto;
+
+}
+
+.box11 button {
+    background-color: #E27B3A;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.oxirrogi4 {
+    max-width: 100%;
+    height: 100%;
+
+
+
+}
+
+.oxirrogi4 h1 {
+    margin-left: 30%;
+
+}
+
+.rasm2 {
+    max-width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    margin: auto;
+}
+
+.oxiri2 {
+    margin-top: 50px;
+    max-width: 100%;
+    height: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.oxiri2 p {
+    color: white;
+
+}
+
+.box13 {
+    margin: auto;
+}
+
+.box13 h1 {
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .rasm2 {
+        grid-template-columns: auto auto;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px) {
+    .boshi {
+        grid-template-columns: auto;
+
+    }
+
+    .boshi .lol2 {
+        grid-template-columns: auto auto;
+    }
+
+    .ortasi .lol3 h1 {
+        font-size: 50px;
+    }
+
+
+    .lol4 img {
+        max-width: 100%;
+        size: 10px;
+    }
+
+    .ortasi {
+        height: 100%;
+        grid-template-columns: auto;
+
+    }
+
+
+
+    .boxs1 {
+        grid-template-columns: auto auto;
+
+    }
+
+    .lol5 {
+        max-width: 80%;
+        grid-template-columns: auto;
+
+
+    }
+
+    .lol9 {
+        grid-template-columns: auto;
+    }
+
+    .oxirrogi2 {
+
+
+        grid-template-columns: auto auto;
+    }
+
+    .oxirrogi3 {
+        grid-template-columns: auto;
+
+    }
+
+    .rasm2 {
+        grid-template-columns: auto;
+    }
+
+    .oxiri2 {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+
+
+@media screen and (max-width:400px) {
+    .boshi .lol2 {
+        grid-template-columns: auto;
+        margin: auto;
+    }
+
+    .boxs1 {
+        grid-template-columns: auto;
+
+    }
+
+    .oxirrogi2 {
+
+
+        grid-template-columns: auto auto;
+    }
+
+    .oxiri2 {
+        grid-template-columns:  auto;
+        margin-top: 20px;
+    }
+
+
+}
